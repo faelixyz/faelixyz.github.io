@@ -1,61 +1,89 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
-    <meta property="og:title" content="Faelixyz | Webseite">
-    <meta property="og:description" content="Hier findest du alles Wichtige über mich!">
-    <meta property="og:image" content="https://cdn.discordapp.com/avatars/854712523130667098/c95398e155ef017fb3ce2d6277fc0bd7.webp?size=2048">
-    <meta name="theme-color" content="#2B2D31">
-    <title>Faelixyz | Seite</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5HM87S03HG"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-5HM87S03HG');
-    </script>
-
+<html>
   <body>
-
-
-    <a id="profilePicture" href="#popup">
-      <img src="https://cdn.discordapp.com/avatars/854712523130667098/c95398e155ef017fb3ce2d6277fc0bd7.webp?size=2048" alt="Profile Picture">
-    </a>
-
-    <div class="overlay" id="popup">
-      <div class="popup">
-        <div class="popup-photo">
-          <a href="https://cdn.discordapp.com/avatars/854712523130667098/c95398e155ef017fb3ce2d6277fc0bd7.webp?size=2048" target="_blank">
-            <img src="https://cdn.discordapp.com/avatars/854712523130667098/c95398e155ef017fb3ce2d6277fc0bd7.webp?size=2048" alt="Profile Picture">
-          </a>
-        </div>
-        <div class="popup-quote">
-        Everything will be okay in the end. If it's not okay, it's not the end.
-        </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
-      </div>
-    </div>
-
-    <div id="userName">
-      Faelixyz
-    </div>
-
-    <div id="links">
-      <a class="link" href="https://voxelgames.de/discord" target="_blank">
-        <i class="fab fa-discord">&nbsp;</i>Discord Server
-      </a>
-      <a class="link" href="https://serverlord.mlserv.xyz/dashboard" target="_blank">
-        <i class="fas fa-robot">&nbsp;</i>Serverlord Bot
-      </a>
-      <a class="link" href="https://www.youtube.com/channel/UCsV0FIKNyuRTuYEWr8-f-zQ" target="_blank">
-        <i class="fab fa-youtube">&nbsp;</i>YouTube
-      </a>
-    </div>
+    <link rel="icon" type="favicon" href="/favicon.png">
+    <title>Home • Faelixyz</title>
+    <meta http-equiv="Refresh" content="2; url=https://faelixyz.github.io/redirectend.html" />
+    
+  </body>
 </html>
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+  .text {
+    fill: none;
+    stroke-width: 3;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 6s infinite linear;
+    animation: stroke 6s infinite linear;
+  }
+  .text:nth-child(5n+1) {
+    stroke: #F2385A;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+  }
+  .text:nth-child(5n+2) {
+    stroke: #F5A503;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s;
+  }
+  .text:nth-child(5n+3) {
+    stroke: #E9F1DF;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s;
+  }
+  .text:nth-child(5n+4) {
+    stroke: #56D9CD;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s;
+  }
+  .text:nth-child(5n+5) {
+    stroke: #3AA1BF;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+  }
+  
+  @-webkit-keyframes stroke {
+    100% {
+      stroke-dashoffset: -400;
+    }
+  }
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: -400;
+    }
+  }
+  /* Other styles */
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background: #21252e;
+    background-size: 0.2em 100%;
+    font: 5em/1 Open Sans, Impact;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+      </style>
+<svg viewBox="0 0 600 300">
+    <!-- Symbol-->
+    <symbol id="s-text">
+      <text text-anchor="middle" x="50%" y="50%" dy=".35em">FAELIXYZ</text>
+    </symbol>
+    <!-- Duplicate symbols-->
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+  </svg>
+  
+ 
+
